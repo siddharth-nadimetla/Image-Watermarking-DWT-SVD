@@ -157,14 +157,20 @@ installed.
 
 **Step 1: Create a Virtual Environment (Recommended)**
 
-`# Create a new virtual environment folder  python -m venv venv  # Activate the environment  # On Windows:  .\venv\Scripts\activate  # On macOS/Linux:  source venv/bin/activate`
+`# Create a new virtual environment folder  python -m venv venv`
+`# Activate the environment`
+`# On Windows:  .\venv\Scripts\activate`
+`# On macOS/Linux:  source venv/bin/activate`
 
 **Step 2: Install Dependencies**
 
 Make sure you have a requirements.txt file in your project with the
 following content:
 
-`opencv-python  numpy  PyWavelets  scikit-image`
+`opencv-python`
+`numpy`
+`PyWavelets`
+`scikit-image`
 
 Then, run the following command to install them:
 
